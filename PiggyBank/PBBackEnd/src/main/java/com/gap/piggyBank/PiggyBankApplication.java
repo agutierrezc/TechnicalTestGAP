@@ -12,8 +12,8 @@ import org.springframework.context.annotation.ComponentScan;
  */
 @SpringBootApplication
 @ComponentScan
-public class PiggyBankAplication {
+public class PiggyBankApplication {
 	public static void main(String[] args) {
-		SpringApplication.run(PiggyBankAplication.class, args);
+		SpringApplication.run(PiggyBankApplication.class, args);
 	}
 }
