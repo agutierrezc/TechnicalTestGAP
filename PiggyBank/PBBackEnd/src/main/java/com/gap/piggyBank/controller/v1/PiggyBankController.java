@@ -5,6 +5,7 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -15,6 +16,7 @@ import com.gap.piggyBank.model.CoinDenomination;
 import com.gap.piggyBank.service.PiggyBankService;
 import com.gap.piggyBank.util.BusinessException;
 
+@CrossOrigin(maxAge = 3600)
 @RestController
 @RequestMapping("/v1")
 public class PiggyBankController {
