@@ -45,8 +45,8 @@ should be running into the port 9090.
 Technical specification of endpoints exposed:
 
 	* http://localhost:9090/v1/coin/{{denomination}} 	POST	insert coin 
-	* http://localhost:9090/v1/coin/{{denomination}} 	GET		get specific denomination
-	* http://localhost:9090/v1/coin/ 					GET		get coin's total
+	* http://localhost:9090/v1/coin/{{denomination}} 	GET	get specific denomination
+	* http://localhost:9090/v1/coin/ 			GET	get coin's total
 
 In another command prompt go to "PBFrontEnd" folder and run "yarn install" or "npm install" 
 then run "yarn start" or "npm start". Application will run on port 3000.
